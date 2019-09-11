@@ -21,7 +21,7 @@
      * 담당팀 미정의 서비스, 프로젝트들의 버그나 신규 기능 필요시 수정/배포 진행
      * Spring Boot, Hibernate, Gradle, Freemarker, Grunt, Handlers 등 사용
      * IDC 인프라
- - layout: left
+- layout: left
   company: KCC정보통신
   link: https://main.kcc.co.kr/html/main.php
   job_title: 웹 개발자
