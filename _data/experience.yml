@@ -1,9 +1,32 @@
 - layout: left
-  company: The Boring Company
-  link: boringcompany.com
-  job_title: Senior Network System Administrator
-  dates: November 2017 - Present
+  company: 우아한형제들
+  link: https://www.woowahan.com/
+  job_title: 자바 백엔드 엔지니어
+  dates: 2016.12 ~ 현재
   quote: >
    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+     * 대규모 트래픽, 데이터 환경에서의 API/Batch 개발
+     * 정산, 포인트, 주문 시스템의 레거시 개편
+     * AWS SQS, AWS Elastic Cache 로
+- layout: left
+  company: 줌인터넷
+  link: http://zum.com
+  job_title: 웹 개발자
+  dates: 2014.12 ~ 2016.12
+  quote: >
+   일일 PV 2000만의 포탈 서비스
+  description: | # this will include new lines to allow paragraphs
+     * 메인페이지, 회원 서비스의 메인 개발자로 개발/운영
+     * 담당팀 미정의 서비스, 프로젝트들의 버그나 신규 기능 필요시 수정/배포 진행
+     * Spring Boot, Hibernate, Gradle, Freemarker, Grunt, Handlers 등 사용
+     * IDC 인프라
+ - layout: left
+  company: KCC정보통신
+  link: https://main.kcc.co.kr/html/main.php
+  job_title: 웹 개발자
+  dates: 2014.02 ~ 2014.12
+  quote: >
+   사내 프로젝트 및 SI프로젝트 참여
+  description: | # this will include new lines to allow paragraphs
+     * 전자정부 프  
