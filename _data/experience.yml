@@ -4,7 +4,7 @@
   job_title: 자바 백엔드 엔지니어
   dates: 2016.12 ~ 현재
   quote: >
-   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+   MAU 1,000만의 커머스 서비스
   description: | # this will include new lines to allow paragraphs
      * 대규모 트래픽, 데이터 환경에서의 API/Batch 개발
      * 정산, 포인트, 주문 시스템의 레거시 개편
@@ -17,7 +17,7 @@
   quote: >
    일일 PV 2000만의 포탈 서비스
   description: | # this will include new lines to allow paragraphs
-     * 메인페이지, 회원 서비스의 메인 개발자로 개발/운영
+     * 포털 메인 페이지, 회원 서비스의 메인 개발자로 개발/운영
      * 담당팀 미정의 서비스, 프로젝트들의 버그나 신규 기능 필요시 수정/배포 진행
      * Spring Boot, Hibernate, Gradle, Freemarker, Grunt, Handlers 등 사용
      * IDC 인프라

@@ -1,8 +1,10 @@
 - layout: top-middle
-  name: Super awesome project
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+  name: 배달의 민족 포인트 시스템 개편
+  link: http://woowabros.github.io/experience/2018/10/12/new_point_story_1.html
   quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+    배달의 민족 서비스의 포인트 레거시 개편
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    * 프로젝트 리더, 신규 도메인/시스템 구조 설계, 메인 애플리케이션 개발, AWS 인프라 구축 담당
+    * <mark>DB가 죽어도 문제가 없는</mark> 시스템이 되도록 AWS SQS와 Redis 위주의 시스템 구성
+    * 데이터의 정합성을 위해 <mark>Update/Delete </mark>가 없는 도메인 모델 구성
+    * Spring Boot 2.x, JPA, Gradle 4, Querydsl, Junit4 + Spock,  

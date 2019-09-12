@@ -22,8 +22,8 @@ linkedin_username: jojoldu
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  6년차 Java 백엔드 개발자로 SI와 포털, 커머스에서 개발/배포/운영 경험이 있습니다.  
-  일일 PV 2000만에서의 컨텐츠 서빙
+  6년차 Java 백엔드 개발자로 SI, 포털, 커머스에서 개발/배포/운영 경험이 있습니다.  
+  일 PV 2000만에서의 컨텐츠 서빙, MAU 1000만의 커머스
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 # Projects Section
