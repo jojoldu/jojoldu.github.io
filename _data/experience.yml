@@ -1,14 +1,16 @@
 - layout: left
   company: 우아한형제들
   link: https://www.woowahan.com/
-  job_title: 자바 백엔드 엔지니어
+  job_title: 자바 백엔드 개발자
   dates: 2016.12 ~ 현재
   quote: >
    MAU 1,000만의 커머스 서비스
   description: | # this will include new lines to allow paragraphs
      * 대규모 트래픽, 데이터 환경에서의 API/Batch 개발
      * 정산, 포인트, 주문 시스템의 레거시 개편
-     * AWS SQS, AWS Elastic Cache 로
+     * 업계 최초 일정산 등 비지니스 지원
+     * IDC 환경과 AWS 환경 모두에서 무중단 배포, 성능 테스트, 운영 환경 구축 경험
+     * 2019년 상반기 <mark>우수사원</mark> 수상
 - layout: left
   company: 줌인터넷
   link: http://zum.com
@@ -20,13 +22,14 @@
      * 포털 메인 페이지, 회원 서비스의 메인 개발자로 개발/운영
      * 담당팀 미정의 서비스, 프로젝트들의 버그나 신규 기능 필요시 수정/배포 진행
      * Spring Boot, Hibernate, Gradle, Freemarker, Grunt, Handlers 등 사용
-     * IDC 인프라
+     * IDC 인프라 환경에서의 개발/운영
+     * 2016년 본부 추천 <mark>특진</mark> 
 - layout: left
   company: KCC정보통신
-  link: https://main.kcc.co.kr/html/main.php
   job_title: 웹 개발자
   dates: 2014.02 ~ 2014.12
   quote: >
-   사내 프로젝트 및 SI프로젝트 참여
+   연매출 1000억의 중견 SI 기업
   description: | # this will include new lines to allow paragraphs
-     * 전자정부 프  
+     * 사내 프로젝트 개발 및 100억원의 SI 프로젝트 참여
+     * 전자정부 프레임워크, MyBatis, Oracle 환경에서의 개발 경험  

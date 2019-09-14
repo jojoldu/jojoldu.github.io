@@ -23,7 +23,9 @@ linkedin_username: jojoldu
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   6년차 Java 백엔드 개발자로 SI, 포털, 커머스에서 개발/배포/운영 경험이 있습니다.  
-  일 PV 2000만에서의 컨텐츠 서빙, MAU 1000만의 커머스
+  일 PV 2000만에서의 컨텐츠 서빙, MAU 1000만의 커머스에서의 API, Batch 개발을 경험했습니다.  
+  개인이 하고 싶은 일 보다는 회사와 팀에 도움이 되는 개발을 추구합니다.  
+  Xtrabackup, pt-online-schema-change 등을 이용해 MySQL 운영을 해오기도 했습니다.  
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 # Projects Section
@@ -38,8 +40,8 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
+  여러 주제로 발표를 해왔습니다.
+   - [2018 KCD - IntelliJ IDEA만으로 개발하기](https://www.youtube.com/watch?v=wBXSUdT1jX0)
    - Gaming
    - Knitting
    - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
