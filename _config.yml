@@ -41,8 +41,9 @@ about_content: | # this will include new lines to allow paragraphs
 more_content: | # this will include new lines to allow paragraphs
   여러 주제로 발표와 기고를 해왔습니다.
    - [우아한 스프링 배치](https://www.facebook.com/woowahanTech/photos/a.1925530564354206/2373861249521133/?type=3&theater) 
+   - [인프런 - IntelliJ IDEA 가이드](https://www.inflearn.com/course/intellij-guide) 
    - [2018 KCD - IntelliJ IDEA만으로 개발하기](https://www.youtube.com/watch?v=wBXSUdT1jX0)
-   - [2018 젯브레인즈 데이 - Upsource를 이용한 코드리뷰](https://www.youtube.com/watch?v=06bJt6CnRAU&feature=youtu.be)
+   - [2018 JetBrains Day - Upsource를 이용한 코드리뷰](https://www.youtube.com/watch?v=06bJt6CnRAU&feature=youtu.be)
    - [마소 394호 - AWS EC2와 TravisCI를 활용한 무중단 배포 서비스](http://it.chosun.com/site/data/html_dir/2018/10/29/2018102900482.html)
   
 # Footer
