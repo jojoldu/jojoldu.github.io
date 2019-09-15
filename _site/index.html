@@ -56,8 +56,8 @@
         <span class="profile-img" style="background-image: url(/images/profile.jpg)" />
       </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
       <p>6년차 Java 백엔드 개발자로 SI, 포털, 커머스에서 개발/배포/운영 경험이 있습니다.<br />
-일 PV 2000만에서의 컨텐츠 서빙, MAU 1000만의 커머스
-I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark></p>
+일 PV 2000만에서의 컨텐츠 서빙, MAU 1000만 커머스에서의 API/Batch/AWS 인프라 구축 등을 경험했습니다.<br />
+개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에 xtrabackup, pt-online-schema-change 등을 이용해 MySQL 운영을 해오기도 했습니다.</p>
 
     </div>
   </div>
@@ -91,7 +91,7 @@ I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark></p>
   <li>신규 시스템의 <mark>Batch</mark> 환경 전체 구성</li>
   <li>신규 도메인과 구 도메인 정합성 검증 배치 구현</li>
   <li>실시간 배치 (배달 자동완료, 자동 취소 등) 구현</li>
-  <li>팀내 필요한 Batch 공통 모듈 구현 및 가이드</li>
+  <li>필요한 Batch 공통 모듈 구현 및 가이드</li>
   <li>Spring Boot Batch 2.x, JPA, Querydsl, Gradle 4, Junit4 + Spock, AWS</li>
 </ul>
 
@@ -106,7 +106,7 @@ I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark></p>
 </p><ul>
   <li>PHP + 수백라인의 프로시져 -&gt; Spring + JPA + 테스트 코드 기반으로 전환</li>
   <li>복잡한 도메인에서의 JPA 엔티티 설계</li>
-  <li>대용량 배치 성능 향상 (5시간 -&gt; 6분)</li>
+  <li>대용량 배치 성능 향상 (<mark>5시간 -&gt; 6분</mark>)</li>
   <li>팀내 프론트 엔드 개발 환경 개선 (webpack, hot reload 등)</li>
   <li>팀내 API 공통 모듈 구현 및 가이드</li>
   <li>Spring Boot 1.x (이후 2.x로 업데이트), JPA, Querydsl, Gradle 4, Junit4 + Spock, MariaDB</li>
@@ -165,7 +165,70 @@ I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark></p>
 
   
 </div>
-<div class="container education-container">
+<div class="container projects-container">
+    <h3>Opensource</h3>
+    
+      <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>개인 블로그</h4>
+<a href="https://jojoldu.tistory.com/" target="_blank" class="link">https://jojoldu.tistory.com/</a></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">그간 공부해온것들을 정리하는 개인 기술 블로그입니다.
+</p><ul>
+  <li>평일 평균 PV 5,000 ~ 6000, 전체 PV 180만</li>
+  <li>Java, Spring, Database, AWS, CI/CD 등 업무에서 해결한 문제들을 정리하고 있습니다.</li>
+</ul>
+
+  </div>
+</div>
+
+    
+      <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>spring-boot-aws-mock</h4>
+<a href="https://github.com/jojoldu/spring-boot-aws-mock" target="_blank" class="link">https://github.com/jojoldu/spring-boot-aws-mock</a></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">테스트 코드와 로컬 개발 환경에서 사용할 AWS Mocking용 Spring Boot Starter
+</p><ul>
+  <li>AWS의 메세징 큐 서비스인 SQS 관련 개발을 할때마다 OTP 인증 받아 토큰 갱신이 필요한게 귀찮아서 개발 시작</li>
+  <li>여러 개발자들이 격리화된 AWS 환경에서 개발할 수 있게 지원하는 Mocking 라이브러리</li>
+  <li>별도로 <mark>Docker 설치 없이</mark> 프로젝트를 실행할수 있게 <mark>H2와 같은 사용성</mark> 지원</li>
+  <li>ElasticMQ 등 사용</li>
+  <li>오픈 초기에는 사내 여러 팀, 서비스에서도 사용</li>
+  <li><a href="http://woowabros.github.io/tools/2019/07/18/localstack-integration.html">AWS Localstack</a>의 발견으로 확장하지 않을 예정</li>
+</ul>
+
+  </div>
+</div>
+
+    
+      <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>translator</h4>
+<a href="https://github.com/jojoldu/translator" target="_blank" class="link">https://github.com/jojoldu/translator</a></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">IntelliJ IDEA 기반 IDE에서 사용할 수 있는 <mark>번역</mark> 플러그인
+</p><ul>
+  <li>구글/네이버 사전을 검색하기 위해 개발 중간 중간 화면 이동하는게 귀찮아서 개발</li>
+  <li>JavaDoc 번역, 변수명 짓기 등 영문 &lt;-&gt; 한글 번역 지원</li>
+  <li>PC 애플리케이션의 Freezing을 막기 위해 모든 이벤트를 논블로킹으로</li>
+  <li>Java8 <mark>CompletableFuture</mark> 기반 구현 및 테스트 코드 작성</li>
+</ul>
+
+  </div>
+</div>
+
+    
+      <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>markdown-tistory</h4>
+<a href="https://github.com/jojoldu/markdown-tistory" target="_blank" class="link">https://github.com/jojoldu/markdown-tistory</a></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">티스토리에 마크다운 File을 HTML로 전환하여 등록하는 Nodejs 스크립트
+</p><ul>
+  <li>티스토리 글 작성시 VSCode, IntelliJ IDEA의 단축키, 사용성을 가지기 위해 개발</li>
+  <li>Callback -&gt; Promise -&gt; <mark>async/await</mark> 로 코드 리팩토링</li>
+  <li><mark>mocha</mark> 를 이용한 테스트 코드</li>
+  <li>티스토리 OAuth2 API 사용</li>
+</ul>
+
+  </div>
+</div>
+
+    
+</div><div class="container education-container">
   <h3>Education</h3>
   
     <div class="row clearfix layout layout-left">
@@ -181,21 +244,20 @@ I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark></p>
   
 </div>
 <div class="container more-container">
-  <h3>A Little More About Me</h3>
-  <div class="row clearfix">
-    <div class="col-md-12">
-      <p>Alongside my interests in networks and software engineering some of my other interests and hobbies are:</p>
+    <h3>외부 활동</h3>
+    <div class="row clearfix">
+      <div class="col-md-12">
+        <p>여러 주제로 발표와 기고를 해왔습니다.</p>
 <ul>
-  <li>Rock climbing</li>
-  <li>Gaming</li>
-  <li>Knitting</li>
-  <li><a href="https://www.youtube.com/watch?v=vtg4o__aRMg">Becoming a ninja</a></li>
+  <li><a href="https://www.facebook.com/woowahanTech/photos/a.1925530564354206/2373861249521133/?type=3&amp;theater">우아한 스프링 배치</a></li>
+  <li><a href="https://www.youtube.com/watch?v=wBXSUdT1jX0">2018 KCD - IntelliJ IDEA만으로 개발하기</a></li>
+  <li><a href="https://www.youtube.com/watch?v=06bJt6CnRAU&amp;feature=youtu.be">2018 젯브레인즈 데이 - Upsource를 이용한 코드리뷰</a></li>
+  <li><a href="http://it.chosun.com/site/data/html_dir/2018/10/29/2018102900482.html">마소 394호 - AWS EC2와 TravisCI를 활용한 무중단 배포 서비스</a></li>
 </ul>
 
+      </div>
     </div>
-  </div>
-</div>
-</div>
+  </div></div>
     </main><div class="container footer-container">
   <p>
     이동욱 -

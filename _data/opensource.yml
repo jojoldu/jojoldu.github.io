@@ -1,0 +1,45 @@
+- layout: top-middle
+  name: 개인 블로그
+  link: https://jojoldu.tistory.com/
+  quote: >
+    그간 공부해온것들을 정리하는 개인 기술 블로그입니다.
+  description: | # this will include new lines to allow paragraphs
+    * 평일 평균 PV 5,000 ~ 6000, 전체 PV 180만
+    * Java, Spring, Database, AWS, CI/CD 등 업무에서 해결한 문제들을 정리하고 있습니다.
+- layout: top-middle
+  name: spring-boot-aws-mock
+  link: https://github.com/jojoldu/spring-boot-aws-mock
+  quote: >
+    테스트 코드와 로컬 개발 환경에서 사용할 AWS Mocking용 Spring Boot Starter
+  description: | # this will include new lines to allow paragraphs
+    * AWS의 메세징 큐 서비스인 SQS 관련 개발을 할때마다 OTP 인증 받아 토큰 갱신이 필요한게 귀찮아서 개발 시작
+    * 여러 개발자들이 격리화된 AWS 환경에서 개발할 수 있게 지원하는 Mocking 라이브러리
+    * 별도로 <mark>Docker 설치 없이</mark> 프로젝트를 실행할수 있게 <mark>H2와 같은 사용성</mark> 지원
+    * ElasticMQ 등 사용
+    * 오픈 초기에는 사내 여러 팀, 서비스에서도 사용
+    * [AWS Localstack](http://woowabros.github.io/tools/2019/07/18/localstack-integration.html)의 발견으로 확장하지 않을 예정
+- layout: top-middle
+  name: translator
+  link: https://github.com/jojoldu/translator
+  quote: >
+    IntelliJ IDEA 기반 IDE에서 사용할 수 있는 <mark>번역</mark> 플러그인
+  description: | # this will include new lines to allow paragraphs
+    * 구글/네이버 사전을 검색하기 위해 개발 중간 중간 화면 이동하는게 귀찮아서 개발
+    * JavaDoc 번역, 변수명 짓기 등 영문 <-> 한글 번역 지원
+    * PC 애플리케이션의 Freezing을 막기 위해 모든 이벤트를 논블로킹으로
+    * Java8 <mark>CompletableFuture</mark> 기반 구현 및 테스트 코드 작성
+- layout: top-middle
+  name: markdown-tistory
+  link: https://github.com/jojoldu/markdown-tistory
+  quote: >
+    티스토리에 마크다운 File을 HTML로 전환하여 등록하는 Nodejs 스크립트
+  description: | # this will include new lines to allow paragraphs
+    * 티스토리 글 작성시 VSCode, IntelliJ IDEA의 단축키, 사용성을 가지기 위해 개발
+    * Callback -> Promise -> <mark>async/await</mark> 로 코드 리팩토링
+    * <mark>mocha</mark> 를 이용한 테스트 코드
+    * 티스토리 OAuth2 API 사용
+  
+
+
+
+    

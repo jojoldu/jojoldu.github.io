@@ -1,0 +1,6 @@
+<div class="container projects-container">
+    <h3>{{ site.projects_title | default: "Opensource" }}</h3>
+    {% for project in site.data.opensource %}
+      {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
+    {% endfor %}
+</div>

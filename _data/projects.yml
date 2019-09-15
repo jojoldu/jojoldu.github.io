@@ -20,7 +20,7 @@
     * 신규 시스템의 <mark>Batch</mark> 환경 전체 구성
     * 신규 도메인과 구 도메인 정합성 검증 배치 구현
     * 실시간 배치 (배달 자동완료, 자동 취소 등) 구현
-    * 팀내 필요한 Batch 공통 모듈 구현 및 가이드
+    * 필요한 Batch 공통 모듈 구현 및 가이드
     * Spring Boot Batch 2.x, JPA, Querydsl, Gradle 4, Junit4 + Spock, AWS 
 - layout: top-middle
   name: 배달의 민족 <mark>정산</mark> 시스템 개편
@@ -30,7 +30,7 @@
   description: | # this will include new lines to allow paragraphs
     * PHP + 수백라인의 프로시져 -> Spring + JPA + 테스트 코드 기반으로 전환
     * 복잡한 도메인에서의 JPA 엔티티 설계
-    * 대용량 배치 성능 향상 (5시간 -> 6분)
+    * 대용량 배치 성능 향상 (<mark>5시간 -> 6분</mark>)
     * 팀내 프론트 엔드 개발 환경 개선 (webpack, hot reload 등)
     * 팀내 API 공통 모듈 구현 및 가이드
     * Spring Boot 1.x (이후 2.x로 업데이트), JPA, Querydsl, Gradle 4, Junit4 + Spock, MariaDB 

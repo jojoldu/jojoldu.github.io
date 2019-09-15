@@ -23,10 +23,9 @@ linkedin_username: jojoldu
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   6년차 Java 백엔드 개발자로 SI, 포털, 커머스에서 개발/배포/운영 경험이 있습니다.  
-  일 PV 2000만에서의 컨텐츠 서빙, MAU 1000만의 커머스에서의 API, Batch 개발을 경험했습니다.  
-  개인이 하고 싶은 일 보다는 회사와 팀에 도움이 되는 개발을 추구합니다.  
-  Xtrabackup, pt-online-schema-change 등을 이용해 MySQL 운영을 해오기도 했습니다.  
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  일 PV 2000만에서의 컨텐츠 서빙, MAU 1000만 커머스에서의 API/Batch/AWS 인프라 구축 등을 경험했습니다.  
+  개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에 xtrabackup, pt-online-schema-change 등을 이용해 MySQL 운영을 해오기도 했습니다.  
+  
 
 # Projects Section
 # projects_title: Projects
@@ -40,12 +39,12 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  여러 주제로 발표를 해왔습니다.
+  여러 주제로 발표와 기고를 해왔습니다.
+   - [우아한 스프링 배치](https://www.facebook.com/woowahanTech/photos/a.1925530564354206/2373861249521133/?type=3&theater) 
    - [2018 KCD - IntelliJ IDEA만으로 개발하기](https://www.youtube.com/watch?v=wBXSUdT1jX0)
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
+   - [2018 젯브레인즈 데이 - Upsource를 이용한 코드리뷰](https://www.youtube.com/watch?v=06bJt6CnRAU&feature=youtu.be)
+   - [마소 394호 - AWS EC2와 TravisCI를 활용한 무중단 배포 서비스](http://it.chosun.com/site/data/html_dir/2018/10/29/2018102900482.html)
+  
 # Footer
 footer_show_references: true
 
