@@ -4,7 +4,8 @@
   quote: >
     그간 공부해온것들을 정리하는 개인 기술 블로그입니다.
   description: | # this will include new lines to allow paragraphs
-    * 평일 평균 PV 5,000 ~ 6000, 전체 PV 180만
+    * 평일 평균 PV 5,000 ~ 6000, MAU 4.5만, 월 PV 12만
+    * 2016년 부터 꾸준히 작성하고 있으며 현재 총 PV는 180만을 달성했습니다. 
     * Java, Spring, Database, AWS, CI/CD 등 업무에서 해결한 문제들을 정리하고 있습니다.
 - layout: top-middle
   name: spring-boot-aws-mock
@@ -26,7 +27,7 @@
   description: | # this will include new lines to allow paragraphs
     * 구글/네이버 사전을 검색하기 위해 개발 중간 중간 화면 이동하는게 귀찮아서 개발
     * JavaDoc 번역, 변수명 짓기 등 영문 <-> 한글 번역 지원
-    * PC 애플리케이션의 Freezing을 막기 위해 모든 이벤트를 논블로킹으로
+    * PC 애플리케이션의 Freezing을 막기 위해 모든 이벤트를 <mark>논블로킹</mark>으로
     * Java8 <mark>CompletableFuture</mark> 기반 구현 및 테스트 코드 작성
 - layout: top-middle
   name: markdown-tistory

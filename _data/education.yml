@@ -1,10 +1,30 @@
 - layout: left
-  name: 패스트캠퍼스 SQL 튜닝 캠프
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
+  name: 패스트캠퍼스 AWS 운영 서버 관리 마스터 워크샵
+  dates: 2018.04 ~ 2018.05
+  link: https://github.com/jojoldu/fastcampus-aws-workshop
   quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+    AWS 운영에 필요한 기본 개념들과 배포 환경 구성 교육
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+    * 신규 개편할 포인트 시스템의 AWS 인프라 구축이 필요해 참여
+    * Code Deploy를 통한 무중단 배포, Cloud Watch 모니터링 등 
+- layout: left
+  name: 패스트캠퍼스 SQL 튜닝 캠프
+  dates: 2017.07 ~ 2017.08
+  link: https://jojoldu.tistory.com/162
+  quote: >
+    오라클을 기반으로 한 8주간의 쿼리 튜닝 교육
+  description: | # this will include new lines to allow paragraphs
+    * 정산 시스템을 개발/운영 하면서 복잡한 쿼리 + 쿼리 성능 튜닝의 필요성을 느껴 참여
+    * 기본적인 인덱스, 실행 계획, RDBMS의 구조 등을 배움
+    * 실제 업무에 적용 후 쿼리 성능 향상 (5초 -> 1.2초)
+    * 다만 오라클 기반이라 실행 계획에 대해선 MySQL을 위해 별도로 공부 진행
+- layout: left
+  name: 패스트캠퍼스 자바 웹 프로그래밍 CAMP
+  dates: 2016.07 ~ 2016.08
+  link: https://jojoldu.tistory.com/301
+  quote: >
+    자바지기 박재성님의 교육
+  description: | # this will include new lines to allow paragraphs
+    * 줌인터넷 재직 시절 테스트 코드를 전혀 작성하지 않다가, 이 교육을 계기로 시작
+    * TDD, DI 프레임워크 만들기, 자바8 등 백엔드 개발자로 한 단계 성장할 수 있었던 계기 
+    
