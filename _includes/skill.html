@@ -1,7 +1,7 @@
-<div class="container projects-container">
-    <h3>{{ site.projects_title | default: "Skill" }}</h3>
+<div class="container education-container">
+    <h3>{{ site.education_title | default: "Skill" }}</h3>
     <p class="quote">현재 업무에 사용중 혹은 사용했던 기술들입니다.</p>
-    {% for project in site.data.skill %}
-      {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
+    {% for education in site.data.skill %}
+    {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}
     {% endfor %}
 </div>

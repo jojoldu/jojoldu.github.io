@@ -1,4 +1,4 @@
-- layout: top-middle
+- layout: left
   name: Backend
   description: | # this will include new lines to allow paragraphs
     * Java, Groovy, NodeJS
@@ -7,7 +7,7 @@
     * Junit4, Mockito, Spock
     * Gradle, Maven
     * IntelliJ, Visual Studio Code 
-- layout: top-middle
+- layout: left
   name: DevOps
   description: | # this will include new lines to allow paragraphs
     * MySQL, MariaDB
@@ -16,7 +16,7 @@
     * Nginx, Tomcat
     * Pinpoint, Ngrinder
     * Linux Centos
-- layout: top-middle
+- layout: left
   name: Frontend
   description: | # this will include new lines to allow paragraphs
     * ES6
