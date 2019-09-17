@@ -9,7 +9,7 @@
     * 데이터의 정합성을 위해 <mark>Update/Delete 가 없는</mark> 도메인 모델 구성
     * 젠킨스와 AWS를 통한 무중단 배포 구성
     * Pinpoint + Ngrinder를 통한 성능 테스트
-    * Spring Boot 2.x, JPA, Querydsl, Gradle 4, Junit4 + Spock, AWS 
+    * Spring Boot 2.x, JPA, Querydsl, Gradle 4, Junit4 + Spock, AWS, Jenkins 
 - layout: top-middle
   name: 배달의 민족 <mark>주문</mark> 시스템 개편
   link: https://jojoldu.tistory.com/373
@@ -21,7 +21,7 @@
     * 신규 도메인과 구 도메인 정합성 검증 배치 구현
     * 실시간 배치 (배달 자동완료, 자동 취소 등) 구현
     * 필요한 Batch 공통 모듈 구현 및 가이드
-    * Spring Boot Batch 2.x, JPA, Querydsl, Gradle 4, Junit4 + Spock, AWS 
+    * Spring Boot Batch 2.x, JPA, Querydsl, Gradle 4, Junit5 + Spock, AWS, Jenkins
 - layout: top-middle
   name: 배달의 민족 <mark>정산</mark> 시스템 개편
   link: https://brunch.co.kr/@jojoldu/19
@@ -33,4 +33,4 @@
     * 대용량 배치 성능 향상 (<mark>5시간 -> 6분</mark>)
     * 팀내 프론트 엔드 개발 환경 개선 (webpack, hot reload 등)
     * 팀내 API 공통 모듈 구현 및 가이드
-    * Spring Boot 1.x (이후 2.x로 업데이트), JPA, Querydsl, Gradle 4, Junit4 + Spock, MariaDB 
+    * Spring Boot 1.x (이후 2.x로 업데이트), JPA, Querydsl, Gradle 4, Junit4 + Spock, MariaDB, Nginx, Jenkins 
