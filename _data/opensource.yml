@@ -36,7 +36,7 @@
     티스토리에 마크다운 File을 등록하는 NodeJS 패키지
   description: | # this will include new lines to allow paragraphs
     * VSCode, IntelliJ IDEA의 단축키와 사용성으로 티스토리 글을 작성하기 위해 개발
-    * 윈도우에서도 편하게 사용하기 위해 NodeJS로 개발
+    * 윈도우에서도 편하게 사용하기 위해 NodeJS 선택
     * Callback -> Promise -> <mark>async/await</mark> 로 코드 리팩토링
     * <mark>mocha</mark> 를 이용한 테스트 코드
     * 티스토리 OAuth2 API 사용
