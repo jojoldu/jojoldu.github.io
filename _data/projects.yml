@@ -34,7 +34,7 @@
     * Spring Boot Batch 2.x, JPA, Querydsl, Gradle 4, Junit5 + Spock, AWS, Jenkins
 - layout: top-middle
   name: 배달의 민족 <mark>정산</mark> 시스템 개편
-  link: https://brunch.co.kr/@jojoldu/19
+  link: http://woowabros.github.io/tools/2017/07/10/java-enum-uses.html
   quote: >
     2017.01.01 ~ 2017.08.17
   description: | # this will include new lines to allow paragraphs
