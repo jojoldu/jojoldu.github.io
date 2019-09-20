@@ -7,7 +7,7 @@
     * 시스템의 IDC 인프라, 데이터베이스 등 메인 담당자 (Ansible, Xtrabackup, Pt-online-schema-change 등)
     * L4 스크립트와 Jenkins를 이용한 무중단 배포
     * <mark>조 단위의 거래 금액</mark>을 안정적으로 정산 하기 위한 지속적 개선 (현재 <mark>테스트 케이스 1200개</mark>)
-    * Spring Rest Docs를 이용한 문서 자동화를 비롯한 다양한 자동화 개선
+    * Spring Rest Docs를 이용한 문서 자동화를 비롯해 다양한 자동화
 - layout: top-middle
   name: 배달의 민족 <mark>포인트</mark> 시스템 개편
   link: http://woowabros.github.io/experience/2018/10/12/new_point_story_1.html
