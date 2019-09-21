@@ -25,9 +25,9 @@ about_content: | # this will include new lines to allow paragraphs
   6년차 Java 백엔드 개발자로 SI, 포털, 커머스에서 개발/배포/운영 경험이 있습니다.  
   일 PV 2000만에서의 컨텐츠 서빙, MAU 1000만 커머스에서의 API/Batch/AWS 인프라 구축 등을 경험했습니다.  
   개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에 xtrabackup, pt-online-schema-change 등을 이용해 MySQL 운영을 해오기도 했습니다.  
-  반복, 수동 작업이 있으면 자동화 하는 것을 좋아합니다.  
+  반복, 수동 작업을 <mark>자동화</mark> 하는 것을 좋아합니다.  
   최근엔 IDC 서버 관리 스크립트를 Ansible로 만들기도 했습니다.  
-  테스트 코드 작성을 당연하게 생각하고 업무에 녹이고 있습니다.  
+  <mark>테스트 코드</mark> 작성을 당연하게 생각하고 업무에 사용합니다.    
   담당 중인 정산 시스템의 경우 현재 1200개의 테스트 케이스가 추가되었고 여전히 추가 중입니다.
 
 # Projects Section
