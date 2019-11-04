@@ -9,18 +9,6 @@
     * <mark>조 단위의 거래 금액</mark>을 안정적으로 정산 하기 위한 지속적 개선 (현재 <mark>테스트 케이스 1200개</mark>)
     * Spring Rest Docs를 이용한 문서 자동화를 비롯해 다양한 자동화
 - layout: top-middle
-  name: 배달의 민족 <mark>포인트</mark> 시스템 개편
-  link: http://bit.ly/2EcIXIA
-  quote: >
-    2019.04.01 ~ 2019.07.31
-  description: | # this will include new lines to allow paragraphs
-    * 프로젝트 리더, 신규 도메인/시스템 구조 설계, 메인 애플리케이션 개발, AWS 인프라 구축 담당
-    * <mark>DB가 죽어도 문제가 없는</mark> 시스템이 되도록 AWS SQS (메세징 큐)와 Redis 위주의 시스템 구성
-    * 데이터의 정합성을 위해 <mark>Update/Delete 가 없는</mark> 도메인 모델 구성
-    * 젠킨스와 AWS를 통한 무중단 배포 구성
-    * Pinpoint + Ngrinder를 통한 성능 테스트
-    * Spring Boot 2.x, JPA, Querydsl, Gradle 4, Junit4 + Spock, AWS, Jenkins 
-- layout: top-middle
   name: 배달의 민족 <mark>주문</mark> 시스템 개편
   link: https://jojoldu.tistory.com/373
   quote: >
@@ -32,6 +20,18 @@
     * 실시간 배치 (배달 자동완료, 자동 취소 등) 구현
     * 필요한 Batch 공통 모듈 구현 및 가이드
     * Spring Boot Batch 2.x, JPA, Querydsl, Gradle 4, Junit5 + Spock, AWS, Jenkins
+- layout: top-middle
+  name: 배달의 민족 <mark>포인트</mark> 시스템 개편
+  link: http://bit.ly/2EcIXIA
+  quote: >
+    2018.04.01 ~ 2018.07.31
+  description: | # this will include new lines to allow paragraphs
+    * 프로젝트 리더, 신규 도메인/시스템 구조 설계, 메인 애플리케이션 개발, AWS 인프라 구축 담당
+    * <mark>DB가 죽어도 문제가 없는</mark> 시스템이 되도록 AWS SQS (메세징 큐)와 Redis 위주의 시스템 구성
+    * 데이터의 정합성을 위해 <mark>Update/Delete 가 없는</mark> 도메인 모델 구성
+    * 젠킨스와 AWS를 통한 무중단 배포 구성
+    * Pinpoint + Ngrinder를 통한 성능 테스트
+    * Spring Boot 2.x, JPA, Querydsl, Gradle 4, Junit4 + Spock, AWS, Jenkins 
 - layout: top-middle
   name: 배달의 민족 <mark>정산</mark> 시스템 개편
   link: http://bit.ly/2ksIEQB
