@@ -1,12 +1,13 @@
 - layout: top-middle
   name: 배달의 민족 <mark>정산</mark> 시스템 개발/운영
+  link: https://www.notion.so/jojoldu/5badc2ba03904832bce8fdf3dc4a407b
   quote: >
     2017.08.17 ~ 현재
   description: | # this will include new lines to allow paragraphs
     * 메인 애플리케이션 개발자 ~ Tech Leader 경험 중
     * 시스템의 IDC 인프라, 데이터베이스 등 메인 담당자 (Ansible, Xtrabackup, Pt-online-schema-change 등)
     * L4 스크립트와 Jenkins를 이용한 무중단 배포
-    * <mark>조 단위의 거래 금액</mark>을 안정적으로 정산 하기 위한 지속적 개선 (현재 <mark>테스트 케이스 1600개</mark>)
+    * 하루 200만건, <mark>조 단위의 거래 금액</mark>을 안정적으로 정산 하기 위한 지속적 개선 (현재 <mark>테스트 케이스 2300개</mark>)
     * Spring Rest Docs를 이용한 문서 자동화를 비롯해 다양한 자동화
 - layout: top-middle
   name: 배달의 민족 <mark>주문</mark> 시스템 개편
