@@ -1,47 +1,45 @@
 - layout: top-middle
-  name: 배달의 민족 <mark>정산</mark> 시스템 개발/운영
-  link: https://www.notion.so/jojoldu/5badc2ba03904832bce8fdf3dc4a407b
+  name: 개발 파트 매니징
+  link: https://www.notion.so/5badc2ba03904832bce8fdf3dc4a407b
   quote: >
-    2017.08.17 ~ 현재
+    2018.04.01 ~ 현재
   description: | # this will include new lines to allow paragraphs
-    * 메인 애플리케이션 개발자 ~ Tech Leader 경험 중
-    * 시스템의 IDC 인프라, 데이터베이스 등 메인 담당자 (Ansible, Xtrabackup, Pt-online-schema-change 등)
-    * L4 스크립트와 Jenkins를 이용한 무중단 배포
-    * 하루 200만건, <mark>조 단위의 거래 금액</mark>을 안정적으로 정산 하기 위한 지속적 개선 (현재 <mark>테스트 케이스 2300개</mark>)
-    * Spring Rest Docs를 이용한 문서 자동화를 비롯해 다양한 자동화
+    * 배달의 민족 정산 시스템팀 개발 파트 리딩 (2019.07.01 ~ 현재)
+    * 배달의 민족 포인트 개편 TF 리딩 (2018.04.01 ~ 2018.07.31)
 - layout: top-middle
-  name: 배달의 민족 <mark>주문</mark> 시스템 개편
-  link: https://jojoldu.tistory.com/373
-  quote: >
-    2018.08.01 ~ 2018.10.31
+  name: 레거시 시스템 리팩토링/리엔지니어링
+  link:
+  quote:
   description: | # this will include new lines to allow paragraphs
-    * TF로 합류
-    * 신규 시스템의 <mark>Batch</mark> 환경 전체 구성
-    * 신규 도메인과 구 도메인 정합성 검증 배치 구현
-    * 실시간 배치 (배달 자동완료, 자동 취소 등) 구현
-    * 필요한 Batch 공통 모듈 구현 및 가이드
-    * Spring Boot Batch 2.x, JPA, Querydsl, Gradle 4, Junit5 + Spock, AWS, Jenkins
+    * [배달의 민족 정산 시스템 AWS 마이그레이션](https://www.youtube.com/watch?v=3ynQeAZpk4Y) (2020.06.01 ~ 2020.11.20)
+    * [배달의 민족 주문 시스템 개편](https://jojoldu.tistory.com/373) (2018.08.01 ~ 2018.10.31)
+    * [배달의 민족 포인트 시스템 개편](http://bit.ly/2EcIXIA) (2018.04.01 ~ 2018.07.31)
+    * [배달의 민족 정산 시스템 개편](http://bit.ly/2ksIEQB) (2017.01.01 ~ 2017.08.17)
+
 - layout: top-middle
-  name: 배달의 민족 <mark>포인트</mark> 시스템 개편
-  link: http://bit.ly/2EcIXIA
-  quote: >
-    2018.04.01 ~ 2018.07.31
+  name: 대용량 데이터 처리
+  link:
+  quote:
   description: | # this will include new lines to allow paragraphs
-    * 프로젝트 리더, 신규 도메인/시스템 구조 설계, 메인 애플리케이션 개발, AWS 인프라 구축 담당
-    * <mark>DB가 죽어도 문제가 없는</mark> 시스템이 되도록 AWS SQS (메세징 큐)와 Redis 위주의 시스템 구성
-    * 데이터의 정합성을 위해 <mark>Update/Delete 가 없는</mark> 도메인 모델 구성
-    * 젠킨스와 AWS를 통한 무중단 배포 구성
-    * Pinpoint + Ngrinder를 통한 성능 테스트
-    * Spring Boot 2.x, JPA, Querydsl, Gradle 4, Junit4 + Spock, AWS, Jenkins 
+    * 일 주문 300만건의 정산 시스템 API / Batch 개발 및 운영
+    * 일 주문 100만건의 포인트 시스템 메세지큐 / API / Batch 개발 및 운영
+    * 일 PV 2000만건의 포털 메인페이지 개발 및 관리
+    * [Pinpoint/Ngrinder를 통한 성능 테스트 및 개선](https://jojoldu.tistory.com/318)
+    * [JPA / Querydsl / MySQL 성능 개선](https://jojoldu.tistory.com/tag/db%20%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A0)
 - layout: top-middle
-  name: 배달의 민족 <mark>정산</mark> 시스템 개편
-  link: http://bit.ly/2ksIEQB
-  quote: >
-    2017.01.01 ~ 2017.08.17
+  name: 견고한 데이터 구조 및 애플리케이션 설계
+  link:
+  quote:
   description: | # this will include new lines to allow paragraphs
-    * PHP + 수백라인의 프로시져 -> Spring + JPA + 테스트 코드 기반으로 전환
-    * 복잡한 도메인에서의 JPA 엔티티 설계
-    * 대용량 배치 성능 향상 (<mark>5시간 -> 6분</mark>)
-    * 팀내 프론트 엔드 개발 환경 개선 (webpack, hot reload 등)
-    * 팀내 API 공통 모듈 구현 및 가이드
-    * Spring Boot 1.x (이후 2.x로 업데이트), JPA, Querydsl, Gradle 4, Junit4 + Spock, MariaDB, Nginx, Jenkins 
+    * 일 600억원 주문에서의 일일 정산
+    * 정산 프로젝트 TestCode 2400개 / Line Coverage 61%
+    * 감사 추적(Audit Trail)을 위한 채권/미수금/보상 도메인의 Update가 없는 모델
+    * 감사 추적(Audit Trail)을 위한 포인트 도메인 이벤트 기반 모델
+- layout: top-middle
+  name: IDC 및 AWS 클라우드 인프라 운영 관리
+  link:
+  quote:
+  description: | # this will include new lines to allow paragraphs
+    * [IDC] Jenkins / L4 / Nginx를 이용한 무중단 배포
+    * [IDC] MHA 를 이용한 MariaDB HA 환경 구성
+    * [AWS] Jenkins / Code Deploy / Beanstalk 을 이용한 무중단 배포
