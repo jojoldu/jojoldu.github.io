@@ -6,7 +6,7 @@ repository: jojoldu/jojoldu.github.io
 name: 이동욱
 title: Java 백엔드 엔지니어
 email: jojoldu@gmail.com
-website: https://jojoldu.tistory.com/
+website: https://jojoldu.tistory.com
 
 # Social links
 # twitter_username: jojoldu
@@ -23,12 +23,11 @@ facebook_username: devbeginner
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   7년차 Java 백엔드 개발자로 SI, 포털, 커머스에서 개발/배포/운영 경험이 있습니다.  
-  일 PV 2,000만에서의 컨텐츠 서빙, MAU 1,200만, 하루 주문 200만 커머스에서 API/Batch/AWS 인프라 구축 등을 경험했습니다.  
-  개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에 xtrabackup, pt-online-schema-change 등을 이용해 MySQL 운영을 해오기도 했습니다.  
-  반복, 수동 작업을 <mark>자동화</mark> 하는 것을 좋아합니다.  
-  최근엔 IDC 서버 관리 스크립트를 Ansible로 만들기도 했습니다.  
-  <mark>테스트 코드</mark> 작성을 당연하게 생각하고 업무에 사용합니다.    
-  담당 중인 정산 시스템의 경우 현재 2300개의 테스트 케이스가 추가되었고 여전히 추가 중입니다.
+  일 PV 2,000만에서의 컨텐츠 서빙, MAU 1,300만, 하루 주문 300만 커머스에서 API/Batch/AWS 인프라 구축 등을 경험했습니다.
+  개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에
+  xtrabackup, pt-online-schema-change를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.
+  <mark>테스트 코드</mark> 작성을 당연하게 생각하고 업무에 사용합니다.
+  담당 중인 정산 시스템의 경우 현재 2400개의 테스트 케이스가 추가되었고 여전히 추가 중입니다.
 
 # Projects Section
 # projects_title: Projects
@@ -42,9 +41,11 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  여러 주제로 발표와 기고를 해왔습니다.
-   - [2019 우아한 스프링 배치](https://www.facebook.com/woowahanTech/photos/a.1925530564354206/2373861249521133/?type=3&theater) 
-   - [인프런 - IntelliJ IDEA 가이드](https://www.inflearn.com/course/intellij-guide) 
+  여러 주제로 발표와 기고, 출판을 해왔습니다.
+   - [스프링 부트와 AWS로 혼자 구현하는 웹 서비스](https://jojoldu.tistory.com/463)
+   - [EO 인터뷰](https://www.youtube.com/watch?v=V9AGvwPmnZU&t=2s)
+   - [2019 우아한 스프링 배치](https://www.youtube.com/watch?v=_nkJkWVH-mo&t=14s)
+   - [인프런 - IntelliJ IDEA 가이드](https://www.inflearn.com/course/intellij-guide)
    - [2018 KCD - IntelliJ IDEA만으로 개발하기](https://www.youtube.com/watch?v=wBXSUdT1jX0)
    - [2018 JetBrains Day - Upsource를 이용한 코드리뷰](https://www.youtube.com/watch?v=06bJt6CnRAU&feature=youtu.be)
    - [마소 394호 - AWS EC2와 TravisCI를 활용한 무중단 배포 서비스](http://it.chosun.com/site/data/html_dir/2018/10/29/2018102900482.html)
