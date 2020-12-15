@@ -10,7 +10,7 @@
 - layout: top-middle
   name: 레거시 시스템 리팩토링/리엔지니어링
   link:
-  quote:
+  quote: >
   description: | # this will include new lines to allow paragraphs
     * [배달의 민족 정산 시스템 AWS 마이그레이션](https://www.youtube.com/watch?v=3ynQeAZpk4Y) (2020.06.01 ~ 2020.11.20)
     * [배달의 민족 주문 시스템 개편](https://jojoldu.tistory.com/373) (2018.08.01 ~ 2018.10.31)
@@ -20,7 +20,7 @@
 - layout: top-middle
   name: 대용량 데이터 처리 및 성능 개선
   link:
-  quote:
+  quote: >
   description: | # this will include new lines to allow paragraphs
     * 일 주문 300만건의 정산 시스템 API / Batch 개발 및 운영
     * 일 주문 100만건의 포인트 시스템 메세지큐 / API / Batch 개발 및 운영
@@ -33,7 +33,7 @@
 - layout: top-middle
   name: 견고한 데이터 구조 및 애플리케이션 설계
   link:
-  quote:
+  quote: >
   description: | # this will include new lines to allow paragraphs
     * 일 600억원 주문에서의 일일 정산
     * 정산 프로젝트 TestCode 2400개 / Line Coverage 61%
@@ -43,7 +43,7 @@
 - layout: top-middle
   name: IDC 및 AWS 클라우드 인프라 운영 관리
   link:
-  quote:
+  quote: >
   description: | # this will include new lines to allow paragraphs
     * [IDC] Jenkins / L4 / Nginx를 이용한 무중단 배포
     * [IDC] MHA 를 이용한 MariaDB HA 환경 구성
