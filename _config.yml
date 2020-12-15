@@ -22,12 +22,12 @@ facebook_username: devbeginner
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  7년차 Java 백엔드 개발자로 SI, 포털, 커머스에서 개발/배포/운영 경험이 있습니다.  
-  일 PV 2,000만에서의 컨텐츠 서빙, MAU 1,300만, 하루 주문 300만 커머스에서 API/Batch/AWS 인프라 구축 등을 경험했습니다.
+  Java & Spring, AWS 기반의 7년차 백엔드 개발자로
+  <mark>MAU 1,300만</mark> & <mark>일 주문 300만 커머스</mark>, <mark>일 PV 2,000만 포탈</mark>에서 API/Batch/AWS 인프라 구축 등을 해왔습니다.<br/>
+  현재는 팀 내 개발파트의 매니징 업무를 주로 담당하고 있습니다.<br/>
   개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에
-  xtrabackup, pt-online-schema-change를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.
-  <mark>테스트 코드</mark> 작성을 당연하게 생각하고 업무에 사용합니다.
-  담당 중인 정산 시스템의 경우 현재 2400개의 테스트 케이스가 추가되었고 여전히 추가 중입니다.
+  xtrabackup, pt-online-schema-change를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.<br/>
+  <mark>테스트 코드</mark> 작성을 당연하게 생각하여 현재 시스템의 경우 2400개의 테스트 케이스가 적용되어있습니다.
 
 # Projects Section
 # projects_title: Projects
