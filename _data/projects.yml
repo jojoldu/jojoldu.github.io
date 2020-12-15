@@ -6,6 +6,7 @@
   description: | # this will include new lines to allow paragraphs
     * 배달의 민족 정산 시스템팀 개발 파트 리딩 (2019.07.01 ~ 현재)
     * 배달의 민족 포인트 개편 TF 리딩 (2018.04.01 ~ 2018.07.31)
+
 - layout: top-middle
   name: 레거시 시스템 리팩토링/리엔지니어링
   link:
@@ -17,15 +18,18 @@
     * [배달의 민족 정산 시스템 개편](http://bit.ly/2ksIEQB) (2017.01.01 ~ 2017.08.17)
 
 - layout: top-middle
-  name: 대용량 데이터 처리
+  name: 대용량 데이터 처리 및 성능 개선
   link:
   quote:
   description: | # this will include new lines to allow paragraphs
     * 일 주문 300만건의 정산 시스템 API / Batch 개발 및 운영
     * 일 주문 100만건의 포인트 시스템 메세지큐 / API / Batch 개발 및 운영
     * 일 PV 2000만건의 포털 메인페이지 개발 및 관리
+    * Message Queue (AWS SQS) 를 이용한 비동기 포인트 처리 / 메일 발송 시스템 구현
+    * [대용량 Batch 시스템 구현](https://jojoldu.tistory.com/category/Spring%20Batch)
     * [Pinpoint/Ngrinder를 통한 성능 테스트 및 개선](https://jojoldu.tistory.com/318)
     * [JPA / Querydsl / MySQL 성능 개선](https://jojoldu.tistory.com/tag/db%20%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A0)
+
 - layout: top-middle
   name: 견고한 데이터 구조 및 애플리케이션 설계
   link:
@@ -35,6 +39,7 @@
     * 정산 프로젝트 TestCode 2400개 / Line Coverage 61%
     * 감사 추적(Audit Trail)을 위한 채권/미수금/보상 도메인의 Update가 없는 모델
     * 감사 추적(Audit Trail)을 위한 포인트 도메인 이벤트 기반 모델
+
 - layout: top-middle
   name: IDC 및 AWS 클라우드 인프라 운영 관리
   link:
@@ -42,4 +47,5 @@
   description: | # this will include new lines to allow paragraphs
     * [IDC] Jenkins / L4 / Nginx를 이용한 무중단 배포
     * [IDC] MHA 를 이용한 MariaDB HA 환경 구성
+    * [IDC] Ansible를 이용한 IDC 인프라 자동화
     * [AWS] Jenkins / Code Deploy / Beanstalk 을 이용한 무중단 배포

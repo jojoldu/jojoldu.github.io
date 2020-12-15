@@ -4,12 +4,12 @@
   job_title: 자바 백엔드 개발자
   dates: 2016.12 ~ 현재
   quote: >
-   MAU 1,200만의 커머스 서비스
+   MAU 1,300만, 일 주문 300만의 커머스 서비스
   description: | # this will include new lines to allow paragraphs
      * 대규모 트래픽, 데이터 환경에서의 API/Batch 개발
      * 정산, 포인트, 주문 시스템의 레거시 개편
      * 업계 최초 일정산, 광고 정산 등 비지니스 지원
-     * IDC 환경과 AWS 환경 모두에서 무중단 배포, 성능 테스트, 운영 시스템 구축
+     * IDC / AWS 환경 모두에서 무중단 배포, 성능 테스트, 운영 시스템 구축
      * 2019년 상반기 <mark>우수사원</mark> 수상
 - layout: left
   company: 줌인터넷

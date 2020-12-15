@@ -32,17 +32,22 @@
     * PC 애플리케이션의 Freezing을 막기 위해 모든 이벤트를 <mark>논블로킹</mark>으로
     * Java8 <mark>CompletableFuture</mark> 기반 구현 및 테스트 코드 작성
 - layout: left
-  name: markdown-tistory
-  link: https://github.com/jojoldu/markdown-tistory
+  name: spring-batch-querydsl
+  link: https://github.com/jojoldu/spring-batch-querydsl
   quote: >
-    티스토리에 마크다운 File을 등록하는 NodeJS 패키지
+    Querydsl-JPA를 사용할 수 있는 Spring Batch Item Reader
   description: | # this will include new lines to allow paragraphs
-    * VSCode, IntelliJ IDEA의 단축키와 사용성으로 티스토리 글을 작성하기 위해 개발
-    * 윈도우에서도 편하게 사용하기 위해 NodeJS 선택
-    * Callback -> Promise -> <mark>async/await</mark> 로 코드 리팩토링
-    * <mark>mocha</mark> 를 이용한 테스트 코드
-    * 티스토리 OAuth2 API 사용
-  
+    * 업무에서 사용중인 Querydsl-JPA가 Spring Batch에서 공식지원하지 않아 이를 위한 오픈소스 개발
+    * 해당 오픈소스 개발 과정은 [사내 기술 블로그에 포스팅](https://woowabros.github.io/experience/2020/02/05/springbatch-querydsl.html)
+- layout: left
+  name: spring-batch
+  link: https://github.com/spring-projects/spring-batch/pulls?q=is%3Apr+author%3Ajojoldu
+  quote: >
+    Spring Batch 오픈소스 PR
+  description: | # this will include new lines to allow paragraphs
+    * 커머스 서비스를 운영하면서 Spring Batch에 본격적으로 입문
+    * 업무 진행하면서 발견된 이슈에 한해서 계속 PR 요청
+
 
 
 

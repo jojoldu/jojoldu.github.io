@@ -96,11 +96,13 @@
 
   
     <div class="row clearfix layout layout-top-middle">
-  <div class="col-xs-12 col-print-12 details"><h4>대용량 데이터 처리</h4></div>
+  <div class="col-xs-12 col-print-12 details"><h4>대용량 데이터 처리 및 성능 개선</h4></div>
   <div class="col-xs-12 col-print-12"><ul>
   <li>일 주문 300만건의 정산 시스템 API / Batch 개발 및 운영</li>
   <li>일 주문 100만건의 포인트 시스템 메세지큐 / API / Batch 개발 및 운영</li>
   <li>일 PV 2000만건의 포털 메인페이지 개발 및 관리</li>
+  <li>Message Queue (AWS SQS) 를 이용한 비동기 포인트 처리 / 메일 발송 시스템 구현</li>
+  <li><a href="https://jojoldu.tistory.com/category/Spring%20Batch">대용량 Batch 시스템 구현</a></li>
   <li><a href="https://jojoldu.tistory.com/318">Pinpoint/Ngrinder를 통한 성능 테스트 및 개선</a></li>
   <li><a href="https://jojoldu.tistory.com/tag/db%20%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A0">JPA / Querydsl / MySQL 성능 개선</a></li>
 </ul>
@@ -127,6 +129,7 @@
   <div class="col-xs-12 col-print-12"><ul>
   <li>[IDC] Jenkins / L4 / Nginx를 이용한 무중단 배포</li>
   <li>[IDC] MHA 를 이용한 MariaDB HA 환경 구성</li>
+  <li>[IDC] Ansible를 이용한 IDC 인프라 자동화</li>
   <li>[AWS] Jenkins / Code Deploy / Beanstalk 을 이용한 무중단 배포</li>
 </ul>
 
@@ -145,7 +148,7 @@
   <li>Java, Groovy, NodeJS</li>
   <li>Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, Spring Cloud AWS</li>
   <li>JPA, Querydsl, Hibernate</li>
-  <li>Junit4, Mockito, Spock</li>
+  <li>Junit4/5, Mockito, Spock</li>
   <li>Gradle, Maven</li>
   <li>IntelliJ, Visual Studio Code</li>
 </ul>
@@ -159,7 +162,7 @@
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><ul>
   <li>MySQL, MariaDB</li>
   <li>Jenkins, TravisCI, AWS Code Deploy</li>
-  <li>AWS SQS, Elastic Cache (Redis), RDS (Aurora), S3, EC2, Cloud Watch</li>
+  <li>AWS Beanstalk, AWS SQS, Elastic Cache (Redis), RDS (Aurora), S3, EC2, Cloud Watch</li>
   <li>Nginx, Tomcat</li>
   <li>Pinpoint, Ngrinder</li>
   <li>Linux Centos</li>
@@ -233,15 +236,25 @@
 
     
       <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>markdown-tistory</h4>
-<a href="https://github.com/jojoldu/markdown-tistory" target="_blank" class="link">https://github.com/jojoldu/markdown-tistory</a></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">티스토리에 마크다운 File을 등록하는 NodeJS 패키지
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>spring-batch-querydsl</h4>
+<a href="https://github.com/jojoldu/spring-batch-querydsl" target="_blank" class="link">https://github.com/jojoldu/spring-batch-querydsl</a></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">Querydsl-JPA를 사용할 수 있는 Spring Batch Item Reader
 </p><ul>
-  <li>VSCode, IntelliJ IDEA의 단축키와 사용성으로 티스토리 글을 작성하기 위해 개발</li>
-  <li>윈도우에서도 편하게 사용하기 위해 NodeJS 선택</li>
-  <li>Callback -&gt; Promise -&gt; <mark>async/await</mark> 로 코드 리팩토링</li>
-  <li><mark>mocha</mark> 를 이용한 테스트 코드</li>
-  <li>티스토리 OAuth2 API 사용</li>
+  <li>업무에서 사용중인 Querydsl-JPA가 Spring Batch에서 공식지원하지 않아 이를 위한 오픈소스 개발</li>
+  <li>해당 오픈소스 개발 과정은 <a href="https://woowabros.github.io/experience/2020/02/05/springbatch-querydsl.html">사내 기술 블로그에 포스팅</a></li>
+</ul>
+
+  </div>
+</div>
+
+    
+      <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>spring-batch</h4>
+<a href="https://github.com/spring-projects/spring-batch/pulls?q=is%3Apr+author%3Ajojoldu" target="_blank" class="link">https://github.com/spring-projects/spring-batch/pulls?q=is%3Apr+author%3Ajojoldu</a></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">Spring Batch 오픈소스 PR
+</p><ul>
+  <li>커머스 서비스를 운영하면서 Spring Batch에 본격적으로 입문</li>
+  <li>업무 진행하면서 발견된 이슈에 한해서 계속 PR 요청</li>
 </ul>
 
   </div>
@@ -254,12 +267,12 @@
     <div class="row clearfix layout layout-left">
   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>우아한형제들</h4>
 <a href="https://www.woowahan.com/" target="_blank" class="link">https://www.woowahan.com/</a><p><b>자바 백엔드 개발자</b></p><p>2016.12 ~ 현재</p></div>
-  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">MAU 1,200만의 커머스 서비스
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">MAU 1,300만, 일 주문 300만의 커머스 서비스
 </p><ul>
   <li>대규모 트래픽, 데이터 환경에서의 API/Batch 개발</li>
   <li>정산, 포인트, 주문 시스템의 레거시 개편</li>
   <li>업계 최초 일정산, 광고 정산 등 비지니스 지원</li>
-  <li>IDC 환경과 AWS 환경 모두에서 무중단 배포, 성능 테스트, 운영 시스템 구축</li>
+  <li>IDC / AWS 환경 모두에서 무중단 배포, 성능 테스트, 운영 시스템 구축</li>
   <li>2019년 상반기 <mark>우수사원</mark> 수상</li>
 </ul>
 
