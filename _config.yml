@@ -23,8 +23,8 @@ facebook_username: devbeginner
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java & Spring, AWS 기반의 7년차 백엔드 개발자로
-  **MAU 1,300만** & **일 주문 300만 커머스**, **일 PV 2,000만 포탈**에서 API/Batch/AWS 인프라 구축 등을 해왔습니다.<br/>
-  현재는 팀 내 개발파트의 <mark>개발 리더</mark>로 개발 매니징/설계 등을 주요 업무로 하고 있습니다.<br/>
+  **MAU 1,300만/일 주문 300만 커머스**, **일 PV 2,000만 포탈**에서 API/Batch/AWS 인프라 구축 등을 해왔습니다.<br/>
+  현재는 팀 내 <mark>개발 리더</mark>로 개발 매니징/설계 등을 주요 업무로 하고 있습니다.<br/>
   개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에
   xtrabackup, pt-online-schema-change를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.<br/>
   <mark>테스트 코드</mark> 작성을 당연하게 생각하여 현재 시스템의 경우 2400개의 테스트 케이스가 적용되어있습니다.
@@ -42,6 +42,7 @@ about_content: | # this will include new lines to allow paragraphs
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   여러 주제로 발표와 기고, 출판을 해왔습니다.
+   - [우아콘2020 - 수십억건에서 Querydsl 사용하기](https://www.youtube.com/watch?v=zMAX7g6rO_Y)
    - [스프링 부트와 AWS로 혼자 구현하는 웹 서비스](https://jojoldu.tistory.com/463)
    - [EO 인터뷰](https://www.youtube.com/watch?v=V9AGvwPmnZU&t=2s)
    - [2019 우아한 스프링 배치](https://www.youtube.com/watch?v=_nkJkWVH-mo&t=14s)
