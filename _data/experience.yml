@@ -4,7 +4,7 @@
   job_title: 자바 백엔드 개발자
   dates: 2016.12 ~ 현재
   quote: >
-   MAU 1,300만, 일 주문 300만의 커머스 서비스
+   MAU 1,300만, 일 주문 300만건의 커머스 서비스
   description: | # this will include new lines to allow paragraphs
      * 대규모 트래픽, 데이터 환경에서의 API/Batch 개발
      * 정산, 포인트, 주문 시스템의 레거시 개편
@@ -20,8 +20,7 @@
    일일 PV 2000만의 포탈 서비스
   description: | # this will include new lines to allow paragraphs
      * 포털 메인 페이지, 회원 서비스의 메인 개발자로 개발/운영
-     * 담당팀 미정의 서비스, 프로젝트들의 버그나 신규 기능 필요시 수정/배포 진행
-     * Spring Boot, Hibernate, Gradle, Freemarker, Grunt, Handlers 등 사용
+     * Ehcache를 이용한 로컬 캐시, 브라우저 전역 변수를 이용한 클라이언트 캐시등으로 API서버가 죽어도 문제가 없는 메인페이지 구성
      * IDC 인프라 환경에서의 개발/운영
      * 2016년 본부 추천 <mark>특진</mark> 
 - layout: left

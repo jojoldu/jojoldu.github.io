@@ -28,6 +28,7 @@ about_content: | # this will include new lines to allow paragraphs
   개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에
   xtrabackup, pt-online-schema-change를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.<br/>
   <mark>테스트 코드</mark> 작성을 당연하게 생각하여 현재 시스템의 경우 2500개의 테스트 케이스가 하루에도 수십번 수행되기도 합니다.
+  최근 1년간은 비지니스 릴리즈에 영향 없이 팀의 기술 부채 해결을 해왔습니다. 
 
 # Projects Section
 # projects_title: Projects

@@ -12,12 +12,11 @@
   dates: 2017.07 ~ 2017.08
   link: https://jojoldu.tistory.com/162
   quote: >
-    오라클을 기반으로 한 8주간의 쿼리 튜닝 교육
+    오라클을 기반의 쿼리 튜닝 교육
   description: | # this will include new lines to allow paragraphs
     * 정산 시스템을 개발/운영 하면서 복잡한 쿼리 + 쿼리 성능 튜닝의 필요성을 느껴 참여
-    * 기본적인 인덱스, 실행 계획, RDBMS의 구조 등을 배움
+    * 기본적인 인덱스, 실행 계획, RDBMS의 구조
     * 실제 업무에 적용 후 쿼리 성능 향상 (5초 -> 1.2초)
-    * 다만 오라클 기반이라 실행 계획에 대해선 MySQL을 위해 별도로 공부 진행
 - layout: left
   name: 패스트캠퍼스 자바 웹 프로그래밍 CAMP
   dates: 2016.07 ~ 2016.08
@@ -25,6 +24,5 @@
   quote: >
     자바지기 박재성님의 교육
   description: | # this will include new lines to allow paragraphs
-    * 줌인터넷 재직 시절 테스트 코드를 전혀 작성하지 않다가, 이 교육을 계기로 시작
-    * TDD, DI 프레임워크 만들기, 자바8 등 백엔드 개발자로 한 단계 성장할 수 있었던 계기 
+    * 테스트 코드와 클린 코드 교육
     
