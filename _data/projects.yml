@@ -36,9 +36,9 @@
   quote: >
   description: | # this will include new lines to allow paragraphs
     * 일 600억원 & 300만건 주문에서의 일일 정산
-    * 감사 추적(Audit Trail)을 위한 채권/미수금/보상 도메인의 Update가 없는 모델
-    * 감사 추적(Audit Trail)을 위한 포인트 도메인 이벤트 기반 모델
-    * 정산 프로젝트 TestCode 2400개 / Line Coverage 61%
+    * 감사 추적(Audit Trail)을 위한 채권/미수금/보상의 Update가 없는 도메인 설계
+    * 감사 추적(Audit Trail)을 위한 이벤트 기반 포인트 도메인 설계
+    * 정산 프로젝트 TestCode 2500개 / Line Coverage 61%
 
 - layout: top-middle
   name: IDC 및 AWS 클라우드 인프라 운영 관리
