@@ -4,7 +4,7 @@ repository: jojoldu/jojoldu.github.io
 
 # Personal info
 name: 이동욱
-title: Java 백엔드 엔지니어
+title: Java & NodeJS 백엔드 엔지니어
 email: jojoldu@gmail.com
 website: https://jojoldu.tistory.com
 
@@ -22,7 +22,7 @@ facebook_username: devbeginner
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring, AWS 기반의 8년차 백엔드 개발자로
+  Java & Spring / NodeJS & TypeScript, AWS 기반의 8년차 백엔드 개발자로
   **MAU 1,300만/일 주문 300만 커머스**, **일 PV 2,000만 포탈**에서 API/Batch/AWS 인프라 구축 등을 해왔습니다.<br/>
   현재는 팀 내 <mark>개발 리더</mark>로 개발 매니징/설계 등을 주요 업무로 하고 있습니다.<br/>
   개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에

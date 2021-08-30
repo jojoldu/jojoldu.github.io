@@ -4,7 +4,8 @@
   quote: >
     2018.04.01 ~ 현재
   description: | # this will include new lines to allow paragraphs
-    * 배달의 민족 정산 시스템팀 개발 파트 리딩 (2019.07.01 ~ 현재)
+    * 인프랩 개발 파트 리딩 (2021.04.20 ~ 현재)
+    * 배달의 민족 정산 시스템팀 개발 파트 리딩 (2019.07.01 ~ 2021.04.19)
     * 배달의 민족 포인트 개편 TF 리딩 (2018.04.01 ~ 2018.07.31)
 
 - layout: top-middle
@@ -12,6 +13,7 @@
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
+    * 인프런 RDS -> Aurora 마이그레이션 (2021.06.01 ~ 2021.06.20)
     * [배달의 민족 정산 시스템 AWS 마이그레이션](https://www.youtube.com/watch?v=3ynQeAZpk4Y) (2020.06.01 ~ 2020.11.20)
     * [배달의 민족 주문 시스템 개편](https://jojoldu.tistory.com/373) (2018.08.01 ~ 2018.10.31)
     * [배달의 민족 포인트 시스템 개편](http://bit.ly/2EcIXIA) (2018.04.01 ~ 2018.07.31)
@@ -22,6 +24,7 @@
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
+    * 인프런 PostgreSQL SlowQuery 전체 튜닝
     * 일 주문 300만건의 정산 시스템 API / Batch 개발 및 운영
     * 일 주문 100만건의 포인트 시스템 메세지큐 / API / Batch 개발 및 운영
     * 일 PV 2000만건의 포털 메인페이지 개발 및 관리
@@ -45,7 +48,7 @@
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
+    * [AWS] Jenkins / Code Deploy / Beanstalk 을 이용한 무중단 배포
     * [IDC] Jenkins / L4 / Nginx를 이용한 무중단 배포
     * [IDC] MHA 를 이용한 MariaDB HA 환경 구성
     * [IDC] Ansible를 이용한 IDC 인프라 자동화
-    * [AWS] Jenkins / Code Deploy / Beanstalk 을 이용한 무중단 배포
