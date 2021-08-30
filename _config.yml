@@ -12,7 +12,7 @@ website: https://jojoldu.tistory.com
 # twitter_username: jojoldu
 github_username:  jojoldu
 # dribbble_username: jekyll
-facebook_username: devbeginner
+facebook_username: jojoldu
 # flickr_username: jekyll
 # linkedin_username: jojoldu
 # pinterest_username: jekyll
@@ -23,12 +23,12 @@ facebook_username: devbeginner
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java & Spring / NodeJS & TypeScript, AWS 기반의 8년차 백엔드 개발자로
-  **MAU 1,300만/일 주문 300만 커머스**, **일 PV 2,000만 포탈**에서 API/Batch/AWS 인프라 구축 등을 해왔습니다.<br/>
-  현재는 팀 내 <mark>개발 리더</mark>로 개발 매니징/설계 등을 주요 업무로 하고 있습니다.<br/>
+  **누적 학습수 1500만건**의 에듀테크, **MAU 1,300만/일 주문 300만 커머스**, **일 PV 2,000만 포탈** 등의 서비스에서 API/Batch 개발 및 AWS 인프라 구축 등을 해왔습니다.<br/>
+  현재는 팀 내 <mark>개발 리더</mark>로 채용, 프로젝트 코어 구현, 파트 매니징, 설계 등을 주요 업무로 하고 있습니다.<br/>
   개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에
-  xtrabackup, pt-online-schema-change를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.<br/>
-  <mark>테스트 코드</mark> 작성을 당연하게 생각하여 현재 시스템의 경우 2500개의 테스트 케이스가 하루에도 수십번 수행되기도 합니다.
-  최근 1년간은 비지니스 릴리즈에 영향 없이 팀의 기술 부채 해결을 해왔습니다. 
+  xtrabackup, pt-online-schema-change, MHA를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.<br/>
+  <mark>테스트 코드</mark> 작성을 당연하게 생각하여 전 직장 시스템의 경우 2500개의 테스트 케이스가 하루에도 수십번 수행되기도 했습니다.
+  현재는 팀의 비지니스 속도와 기술 부채를 조율하면서 서비스 성장을 지원하고 있습니다.
 
 # Projects Section
 # projects_title: Projects
