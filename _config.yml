@@ -4,7 +4,7 @@ repository: jojoldu/jojoldu.github.io
 
 # Personal info
 name: 이동욱
-title: Java & NodeJS 백엔드 엔지니어
+title: 서버 백엔드 엔지니어
 email: jojoldu@gmail.com
 website: https://jojoldu.tistory.com
 
@@ -16,19 +16,19 @@ facebook_username: jojoldu
 # flickr_username: jekyll
 # linkedin_username: jojoldu
 # pinterest_username: jekyll
-# youtube_username: globalmtb
+youtube_username: UCSEOUzkGNCT_29EU_vnBYjg
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java & Spring / NodeJS & TypeScript, AWS 기반의 8년차 백엔드 개발자로
-  **누적 학습수 1500만건**의 에듀테크, **MAU 1,300만/일 주문 300만 커머스**, **일 PV 2,000만 포탈** 등의 서비스에서 API/Batch 개발 및 AWS 인프라 구축 등을 해왔습니다.<br/>
-  현재는 팀 내 <mark>개발 리더</mark>로 채용, 프로젝트 코어 구현, 파트 매니징, 설계 등을 주요 업무로 하고 있습니다.<br/>
+  **누적 회원수 100만**의 에듀테크, **MAU 1,500만 & 일 주문 300만 커머스**, **일 PV 2,000만 포탈** 등의 서비스에서 백엔드 플랫폼 개발 및 AWS 인프라 구축 등을 해왔습니다.<br/>
   개인이 하고 싶은 일 보다는 <mark>회사와 팀에 도움이 되는</mark> 개발을 해야한다는 생각에
   xtrabackup, pt-online-schema-change, MHA를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.<br/>
-  <mark>테스트 코드</mark> 작성을 당연하게 생각하여 전 직장 시스템의 경우 2500개의 테스트 케이스가 하루에도 수십번 수행되기도 했습니다.
-  현재는 팀의 비지니스 속도와 기술 부채를 조율하면서 서비스 성장을 지원하고 있습니다.
+  <mark>테스트 코드</mark> 작성을 당연하게 생각하여 전 직장 시스템의 경우 2500개의 테스트 케이스가 하루에도 수십번 수행되는 환경을 구성하였습니다.<br/>
+  현재는 <mark>CTO</mark>로 사업과 제품의 방향성을 고려하여 채용, 시스템 설계, 팀 매니징, <mark>팀원과 팀의 성장</mark> 등을 주요 업무로 하고 있습니다.<br/>
+
 
 # Projects Section
 # projects_title: Projects
@@ -43,7 +43,9 @@ about_content: | # this will include new lines to allow paragraphs
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   여러 주제로 발표와 기고, 출판을 해왔습니다.
-   - [우아콘2020 - 수십억건에서 Querydsl 사용하기](https://www.youtube.com/watch?v=zMAX7g6rO_Y)
+   - [인프콘 2022 - 인프런 아키텍처의 과거, 현재 그리고 미래](https://www.youtube.com/watch?v=D_QH50UkX_4)
+   - [MongoDB Day Seoul 2022 - 초기 스타트업과 MongoDB Search](https://www.ddaily.co.kr/news/article/?no=249222)
+   - [우아콘 2020 - 수십억건에서 Querydsl 사용하기](https://www.youtube.com/watch?v=zMAX7g6rO_Y)
    - [스프링 부트와 AWS로 혼자 구현하는 웹 서비스](https://jojoldu.tistory.com/463)
    - [EO 인터뷰](https://www.youtube.com/watch?v=V9AGvwPmnZU&t=2s)
    - [2019 우아한 스프링 배치](https://www.youtube.com/watch?v=_nkJkWVH-mo&t=14s)
