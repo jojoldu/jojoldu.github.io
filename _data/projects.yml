@@ -13,6 +13,7 @@
   link:
   quote: >
   description: | # this will include new lines to allow paragraphs
+    * 인프런 전체 시스템 (JS & Express => TS & NestJS) 마이그레이션 (2021.06.01 ~ 2021.06.20)
     * 인프런 RDS -> Aurora 마이그레이션 (2021.06.01 ~ 2021.06.20)
     * [배달의 민족 정산 시스템 AWS 마이그레이션](https://www.youtube.com/watch?v=3ynQeAZpk4Y) (2020.06.01 ~ 2020.11.20)
     * [배달의 민족 주문 시스템 개편](https://jojoldu.tistory.com/373) (2018.08.01 ~ 2018.10.31)
